@@ -1,1 +1,8 @@
-body {background-color: #ffffff}/*or any color of your choosing*/
+body {
+    background-color: #ffffff;
+    text-align: center;
+}/*or any color of your choosing*/
+
+#owl{
+    font-family: fantasy;
+}
