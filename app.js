@@ -116,6 +116,11 @@ $(() => {
 
 
     //--------------------------------------------------------------//
-    // Year5
+    // Year6
+    $(".secret").hide("slow").delay(200)
+    $(".secret").show("slow")
     
+    $li4.addClass="cabbage"
+    $li4.removeClass="cabbage"
+
 });
