@@ -45,14 +45,14 @@ $(() => {
 
     const $li3 = $("<li>").text("time turner").addClass("secret")
     $ul.append($li3)
-
+    
     const $li4 = $("<li>").text("leash").addClass("owl")
     $ul.append($li4)
-
+    
     const $li5 = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans")
     $ul.append($li5)
     
-
+    
     //--------------------------------------------------------------//
     // Year4
     
@@ -66,13 +66,13 @@ $(() => {
     const $day = $("<th>").text("Day")
     const $classes = $("<th>").text("Classes")
     $thead.append($day).append($classes)
-
+    
     const $tr1 = $("<tr>")
     $thead.append($tr1)
     const $td1 = $("<td>").text("Monday")
     const $td2 = $("<td>").text("Herbology")
     $tr1.append($td1).append($td2)
-
+    
     const $tr2 = $("<tr>")
     $thead.append($tr2)
     const $td3 = $("<td>").text("Tuesday")
@@ -96,13 +96,13 @@ $(() => {
     const $td9 = $("<td>").text("Friday")
     const $td10 = $("<td>").text("History of Magic")
     $tr5.append($td9).append($td10)
-   
+    
     
     //--------------------------------------------------------------//
     // Year5
     $h4Wand.remove()
     $li1.remove()
-
+    
     const $h4WandNew = $("<h4>")
     $h4WandNew.text("Silver Lime with Veela Hair Core")
     $h4.append($h4WandNew)
@@ -113,8 +113,8 @@ $(() => {
     $li5.append($h4)
     $h4.remove()
     $h3.append($h4) 
-
-
+    
+    
     //--------------------------------------------------------------//
     // Year6
     $(".secret").hide("slow").delay(200)
@@ -122,5 +122,14 @@ $(() => {
     
     $li4.addClass="cabbage"
     $li4.removeClass="cabbage"
-
+    
+    
+    //--------------------------------------------------------------//
+    // Year7
+    
+    $tableTitle.text("Fall 2018")
+    const $li6 = $("<li>").text("Butter beer")
+    $ul.append($li6)
+    
+    $ul.attr("storage","chest")
 });
