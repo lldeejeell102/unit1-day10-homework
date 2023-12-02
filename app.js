@@ -4,6 +4,7 @@
 
 $(() => {
 	// put jQuery in here
+    //--------------------------------------------------------------//
     // Year1
     const $container = $("#container")
     // console.log($container)
@@ -12,6 +13,7 @@ $(() => {
     $h1.text("Hogwarts")
     $container.append($h1)
 
+    //--------------------------------------------------------------//
     // Year2
     const $h2 = $("<h2>")
     $h2.text("Daniel")
@@ -29,6 +31,7 @@ $(() => {
     $h4Wand.text("Holly Wand with Unicorn Hair Core")
     $h4.append($h4Wand)
 
+    //--------------------------------------------------------------//
     // Year3
     const $ul = $("<ul>")
     $ul.attr("storage","trunk")
@@ -48,4 +51,54 @@ $(() => {
 
     const $li5 = $("<li>").text("Bertie Bott's Every Flavor [Jelly] Beans")
     $ul.append($li5)
+    
+
+    //--------------------------------------------------------------//
+    // Year4
+    // <table>Here's a Table</table>
+    // <tr>
+    //     <th></th>
+    // </tr> 
+    
+    const $tableTitle = $("<h5>").text("Spring 2017")
+    $li5.append($tableTitle)
+    const $table = $("<table>").addClass("table")
+    $tableTitle.append($table)
+    const $thead = $("<thead>")
+    $table.append($thead)
+    
+    const $day = $("<th>").text("Day")
+    const $classes = $("<th>").text("Classes")
+    $thead.append($day).append($classes)
+
+    const $tr1 = $("<tr>")
+    $thead.append($tr1)
+    const $td1 = $("<td>").text("Monday")
+    const $td2 = $("<td>").text("Herbology")
+    $tr1.append($td1).append($td2)
+
+    const $tr2 = $("<tr>")
+    $thead.append($tr2)
+    const $td3 = $("<td>").text("Tuesday")
+    const $td4 = $("<td>").text("Defense Against the Dark Arts")
+    $tr2.append($td3).append($td4)
+    
+    const $tr3 = $("<tr>")
+    $thead.append($tr3)
+    const $td5 = $("<td>").text("Wendesday")
+    const $td6 = $("<td>").text("Quidditch Practice")
+    $tr3.append($td5).append($td6)
+    
+    const $tr4 = $("<tr>")
+    $thead.append($tr4)
+    const $td7 = $("<td>").text("Thursday")
+    const $td8 = $("<td>").text("Herbology")
+    $tr4.append($td7).append($td8)
+    
+    const $tr5 = $("<tr>")
+    $thead.append($tr5)
+    const $td9 = $("<td>").text("Friday")
+    const $td10 = $("<td>").text("History of Magic")
+    $tr5.append($td9).append($td10)
+    
 });
