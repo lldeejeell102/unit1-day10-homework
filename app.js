@@ -55,10 +55,6 @@ $(() => {
 
     //--------------------------------------------------------------//
     // Year4
-    // <table>Here's a Table</table>
-    // <tr>
-    //     <th></th>
-    // </tr> 
     
     const $tableTitle = $("<h5>").text("Spring 2017")
     $li5.append($tableTitle)
@@ -100,5 +96,26 @@ $(() => {
     const $td9 = $("<td>").text("Friday")
     const $td10 = $("<td>").text("History of Magic")
     $tr5.append($td9).append($td10)
+   
+    
+    //--------------------------------------------------------------//
+    // Year5
+    $h4Wand.remove()
+    $li1.remove()
+
+    const $h4WandNew = $("<h4>")
+    $h4WandNew.text("Silver Lime with Veela Hair Core")
+    $h4.append($h4WandNew)
+    $h4WandNew.css('color', 'indigo')
+    
+    
+    $h4.remove()
+    $li5.append($h4)
+    $h4.remove()
+    $h3.append($h4) 
+
+
+    //--------------------------------------------------------------//
+    // Year5
     
 });
